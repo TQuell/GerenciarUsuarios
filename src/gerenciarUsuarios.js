@@ -1,5 +1,29 @@
+//const usuarios = ['Matheus', 'Marcos', 'Lucas', 'João'];
+
 // criando uma lista. 
-const usuarios = ['Mateus', 'Marcos', 'Lucas', 'João']; 
+const usuarios = [
+    {
+        nome: 'Mateus',
+        email: 'marcos@email.com'
+    },
+
+    {
+        nome: 'Marcos',
+        email: 'marcos@email.com'
+    },
+
+    {
+        nome:'Lucas',
+        email: 'lucas@email.com'
+    },
+
+    {
+        nome: 'João',
+        email: 'joao@email.com'
+    }
+    
+];
+
 
 // criei uma função para retornar os nomes da lista. Mesmo minha constante estando fora da função. 
 function retornarUsuarios() { 
