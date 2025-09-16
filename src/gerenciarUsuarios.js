@@ -33,8 +33,8 @@ function retornarUsuarios() {
 // função para adicinar novo usuário à lista.
 // o push só vale para variável do tipo lista
 // "nome" representa o nome que o suário irá passar. 
-function addNovoUsuario(nome) {
-    usuarios.push(nome);
+function addNovoUsuario(usuarios) {
+    usuarios.push(usuarios);
 }
 
 module.exports = {
